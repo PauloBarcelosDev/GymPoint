@@ -1,0 +1,15 @@
+yarn init -y : iniciar o projeto criar o package json
+
+yarn add express : instalação do express.
+
+yarn add sucrase nodemon -D : adicionando tanto o sucrase quanto o nodemon como dependencias de desenvolvedor
+
+criação do banco de dados 
+docker run --name dataGymPoint -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres:11
+
+yarn add sequelize
+
+yarn add sequelize-cli -D 
+
+yarn add pg pgstore : extenção para funcionar o sequelize
+
