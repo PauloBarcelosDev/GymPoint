@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import Students from '../models/students';
+import Students from '../models/Students';
 import authConfig from '../../config/auth';
 import * as Yup from 'yup';
 

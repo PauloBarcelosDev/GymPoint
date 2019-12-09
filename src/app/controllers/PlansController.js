@@ -1,4 +1,4 @@
-import Plans from '../models/plans';
+import Plans from '../models/Plans';
 import * as Yup from 'yup';
 
 class StudentsController {

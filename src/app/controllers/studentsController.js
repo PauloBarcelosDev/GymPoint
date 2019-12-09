@@ -1,5 +1,5 @@
 import * as Yup from 'yup';
-import Students from '../models/students';
+import Students from '../models/Students';
 class StudentsController {
   async store(req,res){
     const schema = Yup.object().shape({
