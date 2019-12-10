@@ -33,9 +33,6 @@ total_price:{
   type: Sequelize.FLOAT,
   allowNull: false,
 },
-canceled_at:{
-  type: Sequelize.DATE,
-},
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,
