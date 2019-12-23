@@ -1,5 +1,5 @@
 import Sequelize, {Model} from 'sequelize';
-class Checkins extends Model{
+class Checkin extends Model{
   static init(sequelize){
     super.init(
       {
@@ -17,4 +17,4 @@ class Checkins extends Model{
 
   }
 }
-export default Checkins;
+export default Checkin;

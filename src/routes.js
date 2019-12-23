@@ -4,11 +4,13 @@ import StudentsControllers from './app/controllers/studentsController';
 import SessionControllers from './app/controllers/SessionController';
 import PlansControllers from './app/controllers/PlansController';
 import registrationControllers from './app/controllers/registrationController'
+import CheckinsControllers from "./app/controllers/CheckinsControllers";
 
 
 
 const routes = new Router();
-
+routes.post ('/students/:id/checkins', CheckinsControllers.store );
+routes.get ('/students/:id/checkins', CheckinsControllers.index );
 routes.post ('/sessions', SessionControllers.store );
 
 routes.use(authMiddlware);
