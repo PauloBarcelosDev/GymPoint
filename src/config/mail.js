@@ -7,6 +7,6 @@ export default {
     pass:'fc33baf33808e4',
   },
   default: {
-    from: 'Equipe GymPoint <noreply@gobarber.com>',
+    from: 'Equipe GymPoint <noreply@GymPoint.com>',
   },
 };
