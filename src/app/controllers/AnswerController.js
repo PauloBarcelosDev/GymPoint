@@ -37,7 +37,15 @@ async store(req,res){
   return res.json(help_order);
 }
 async list(req,res){
-
+  const help_order = await Help_order.findAll({
+    where: {answer: null},
+    include: [{
+      model: Students,
+      as: 'Students',
+      attributes: ['name', 'email']
+      }]
+  });
+  return res.json(help_order)
 }
 }
 export default new AswerController();

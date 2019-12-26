@@ -23,7 +23,7 @@ routes.post ('/students', StudentsControllers.store );
 routes.put ('/students', StudentsControllers.update );
 
 routes.post('/help-orders/:id/answer', AswerController.store);
-routes.get('/help-orders/:id/answer', AswerController.list);
+routes.get('/help-orders/answer', AswerController.list);
 
 routes.post ('/plans', PlansControllers.store );
 routes.put ('/plans/:id', PlansControllers.update );
